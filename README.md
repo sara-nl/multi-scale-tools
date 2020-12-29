@@ -3,6 +3,9 @@
 Multi-scale tools library includes four components: the preprocessing tools, the regressor tool, the classification tools and the segmentation tools.
 All the scripts work using csv files. At the beginning of each script, the csvs are loaded. For each component, a folder is created. The folder, besides the scripts, includes also a `utils.py`, `generators.py` and `models.py` (the latter ones only where needed).
 
+## Install
+`python -m pip install git+https://github.com/sara-nl/multi-scale-tools`
+
 ## Preprocessing tools
 ### Description
 This component includes scripts to extract the patches from several WSI's scales.
