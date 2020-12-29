@@ -1,0 +1,13 @@
+#!/bin/bash
+
+python Fully_supervised_training.py -n 5 -c resnet34 -m 5 -i /project/projects/0/examode/experiments_HESSO/Multi_Scale_tools/csv_folder/classification/0/single_scales_partitions/ -o /home/niccolo/ExamodePipeline/Multi_Scale_Tools/model_weights/classification/0/single_scales_partitions/ -v True
+python Fully_supervised_training.py -n 5 -c resnet34 -m 10 -i /project/projects/0/examode/experiments_HESSO/Multi_Scale_tools/csv_folder/classification/0/single_scales_partitions/ -o /home/niccolo/ExamodePipeline/Multi_Scale_Tools/model_weights/classification/0/single_scales_partitions/ -v True
+python Fully_supervised_training.py -n 5 -c resnet34 -m 20 -i /project/projects/0/examode/experiments_HESSO/Multi_Scale_tools/csv_folder/classification/0/single_scales_partitions/ -o /home/niccolo/ExamodePipeline/Multi_Scale_Tools/model_weights/classification/0/single_scales_partitions/ -v True
+
+python Fully_supervised_training.py -n 5 -c resnet34 -m 5 -i /project/projects/0/examode/experiments_HESSO/Multi_Scale_tools/csv_folder/classification/1/single_scales_partitions/ -o /home/niccolo/ExamodePipeline/Multi_Scale_Tools/model_weights/classification/1/single_scales_partitions/ -v True
+python Fully_supervised_training.py -n 5 -c resnet34 -m 10 -i /project/projects/0/examode/experiments_HESSO/Multi_Scale_tools/csv_folder/classification/1/single_scales_partitions/ -o /home/niccolo/ExamodePipeline/Multi_Scale_Tools/model_weights/classification/1/single_scales_partitions/ -v True
+python Fully_supervised_training.py -n 5 -c resnet34 -m 20 -i /project/projects/0/examode/experiments_HESSO/Multi_Scale_tools/csv_folder/classification/1/single_scales_partitions/ -o /home/niccolo/ExamodePipeline/Multi_Scale_Tools/model_weights/classification/1/single_scales_partitions/ -v True
+
+python Fully_supervised_training.py -n 5 -c resnet34 -m 5 -i /project/projects/0/examode/experiments_HESSO/Multi_Scale_tools/csv_folder/classification/2/single_scales_partitions/ -o /home/niccolo/ExamodePipeline/Multi_Scale_Tools/model_weights/classification/2/single_scales_partitions/ -v True
+python Fully_supervised_training.py -n 5 -c resnet34 -m 10 -i /project/projects/0/examode/experiments_HESSO/Multi_Scale_tools/csv_folder/classification/2/single_scales_partitions/ -o /home/niccolo/ExamodePipeline/Multi_Scale_Tools/model_weights/classification/2/single_scales_partitions/ -v True
+python Fully_supervised_training.py -n 5 -c resnet34 -m 20 -i /project/projects/0/examode/experiments_HESSO/Multi_Scale_tools/csv_folder/classification/2/single_scales_partitions/ -o /home/niccolo/ExamodePipeline/Multi_Scale_Tools/model_weights/classification/2/single_scales_partitions/ -v True
