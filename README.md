@@ -133,3 +133,11 @@ The script implements both the multi-center and the upper-region models. In orde
 * -c: the pre-trained cnn to use
 * -i: the folder where the input data are stored
 * -o: the folder where to store the model weights, some hyperparameters and the metrics file
+
+# Acknowledgement
+This project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 825292. This project is better known as the ExaMode project. The objectives of the ExaMode project are:
+1. Weakly-supervised knowledge discovery for exascale medical data.  
+2. Develop extreme scale analytic tools for heterogeneous exascale multimodal and multimedia data.  
+3. Healthcare & industry decision-making adoption of extreme-scale analysis and prediction tools.
+
+For more information on the ExaMode project, please visit www.examode.eu. 
