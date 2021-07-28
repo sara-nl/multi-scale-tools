@@ -3,6 +3,12 @@
 Multi-scale tools library includes four components: the preprocessing tools, the regressor tool, the classification tools and the segmentation tools.
 All the scripts work using csv files. At the beginning of each script, the csvs are loaded. For each component, a folder is created. The folder, besides the scripts, includes also a `utils.py`, `generators.py` and `models.py` (the latter ones only where needed).
 
+## Reference
+If you find this repository useful in your research, please cite:
+
+Marini, N., Otálora, S., Podareanu, D., van Rijthoven, M., van der Laak, J., Ciompi, F., Müller H. & Atzori, M. (2021). Multi_Scale_Tools: a python library to exploit multi-scale whole slide images. Frontiers in Computer Science, 3, 68.
+
+
 ## Install
 `python -m pip install git+https://github.com/sara-nl/multi-scale-tools`
 
